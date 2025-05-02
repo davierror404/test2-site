@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Área Privada</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      background: linear-gradient(to bottom right, #5e00b8, #000000);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      background: rgba(0, 0, 0, 0.4);
+      border-radius: 20px;
+      padding: 20px;
+      width: 90%;
+      max-width: 320px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+      text-align: center;
+    }
+
+    h2 {
+      color: #fff;
+      margin-bottom: 15px;
+      font-size: 20px;
+    }
+
+    .link-btn {
+      display: block;
+      text-decoration: none;
+      background: #8000ff;
+      color: white;
+      padding: 10px;
+      border-radius: 10px;
+      margin: 8px auto;
+      font-size: 14px;
+      max-width: 100%;
+    }
+
+    .link-btn.desativado {
+      background: gray;
+      cursor: not-allowed;
+      pointer-events: none; /* Impede o clique no link desativado */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Conteúdo Disponível</h2>
+
+    <a href="https://x.com/drivesdof" class="link-btn" target="_blank">Filmes e Séries Lançamento</a>
+    <a href="https://ghostclouds.xyz/wp/w11-pro-23h2-22631/" class="link-btn" target="_blank">Windows 11 23H2 Ghost Spectre</a>
+    <a href="https://youtu.be/Ow2dHkT4sWg?si=sbJtU76lCBIwlFgq" class="link-btn" target="_blank">Corel Draw</a>
+    <div class="link-btn desativado">Photoshop (Temporariamente Desativado)</div>
+  </div>
+</body>
+</html>
